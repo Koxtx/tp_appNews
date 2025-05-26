@@ -6,6 +6,7 @@ const path = require("path");
 const __DIRNAME = path.resolve();
 
 const app = express();
+
 app.use(express.static(path.join(__DIRNAME, "/front/dist")));
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
