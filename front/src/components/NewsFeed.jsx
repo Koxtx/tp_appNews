@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import NewsForm from "./NewsForm";
-import { PostContext } from "../context/postContext";
+import { PostContext } from "../context/PostContextt";
 import { AuthContext } from "../context/AuthContext";
 import { toast } from "react-toastify";
 
@@ -9,7 +9,6 @@ function NewsFeed() {
 
   const { news, addNews } = useContext(PostContext);
   const { user } = useContext(AuthContext);
-
 
   const categories = [
     { id: "all", label: "All" },
