@@ -63,7 +63,7 @@ function NewsFeed() {
       <div className="flex flex-col-reverse gap-4">
         {news.map((post) => (
           <div
-            key={post.id}
+            key={post._id}
             className="flex flex-col gap-2 p-4 card border-b border-r border-gray-300"
           >
             <div className="flex items-center justify-start gap-2">
