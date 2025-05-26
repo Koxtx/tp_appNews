@@ -1,0 +1,10 @@
+node_modules
+dist
+back/node_modules
+back/.env
+back/package-lock.json
+front/node_modules
+front/.env
+front/package-lock.json
+.env
+package-lock.json
